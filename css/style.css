@@ -201,7 +201,7 @@ preloader section
 navigation section
 ========================================================================== */
 .custom-navbar {
-    background: #4B4B4B;
+    background: #4b4b4baf;
     margin-bottom: 0;
 }
 .custom-navbar .navbar-brand  {
@@ -257,6 +257,14 @@ navigation section
 /* ==========================================================================
 home section
 ========================================================================== */
+.backstretch img{
+  background-size: cover;
+  background-position: center;
+}
+.black{
+  background-color: rgba(00,00,00,0.6);
+  padding: 20px;
+}
 #home {
   background-size: cover;
   background-position: center;
@@ -297,7 +305,7 @@ home section
   border-color: transparent;
 }
 #home .btn-danger {
-  background: #00c6d7;
+  background: #00c5d78e;
   border-color: transparent;
 }
 #home .btn-danger:hover {
