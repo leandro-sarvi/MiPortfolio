@@ -201,7 +201,7 @@ preloader section
 navigation section
 ========================================================================== */
 .custom-navbar {
-    background: #4b4b4baf;
+    background: #4b4b4b93;
     margin-bottom: 0;
 }
 .custom-navbar .navbar-brand  {
@@ -262,7 +262,8 @@ home section
   background-position: center;
 }
 .black{
-  background-color: rgba(00,00,00,0.6);
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 20px;
   padding: 20px;
 }
 #home {
@@ -307,6 +308,7 @@ home section
 #home .btn-danger {
   background: #00c5d78e;
   border-color: transparent;
+  border-radius: 10px;
 }
 #home .btn-danger:hover {
 	border: 4px solid #ffffff;
