@@ -340,6 +340,25 @@ work section
 /* ==========================================================================
 about section
 ========================================================================== */
+.skill{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.skill i.fab{
+  font-size: 40px;
+}
+.fa-html5{
+  color: #ff6702;
+}
+.fa-css3-alt{
+  color: #00adfd;
+}
+.fa-js-square{
+  color: yellow;
+}
 .about-flex{
   display: flex;
   justify-content: center;
