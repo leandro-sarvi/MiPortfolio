@@ -374,6 +374,30 @@ work section
 /* ==========================================================================
 about section
 ========================================================================== */
+.shining{
+  position: relative;
+  font-family: 'Chakra Petch', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  50%{
+    background-position: 0%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
 .skill{
   display: flex;
   text-align: center;
