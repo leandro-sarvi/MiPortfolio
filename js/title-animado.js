@@ -1,5 +1,4 @@
 let barcodeSpans = $("#barcode").children();
-
 function barcodeAnimation()
 {
   barcodeSpans.each(function(i)
