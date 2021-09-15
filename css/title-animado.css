@@ -49,9 +49,7 @@
 #barcode {
   position: relative;
   color: #626B5B;
-  font-family: 'Libre Barcode 128 Text', cursive;
-  font-size: 5rem;
-  font-weight: 100;
+  font-size: 20px;
   white-space: no-wrap;
 }
 

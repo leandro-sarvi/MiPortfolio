@@ -292,6 +292,10 @@ home section
 #home h1 {
   font-size: 40px;
 }
+#home h2{
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
 #home h3 {
   font-size: 14px;
 }
