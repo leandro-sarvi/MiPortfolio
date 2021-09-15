@@ -200,6 +200,12 @@ preloader section
 /* ==========================================================================
 navigation section
 ========================================================================== */
+.span-brand{
+  color:white;
+  background-color: #00c6d7 ;
+  padding: 3px;
+  border-radius: 2px;
+}
 .custom-navbar {
     background: #4b4b4b93;
     margin-bottom: 0;
