@@ -286,8 +286,11 @@ home section
 .black{
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 3px 40px rgba(255, 255, 255, 0.4);
+}
+.barcodeh2{
+  margin-bottom: 30px;
 }
 #home {
   background-size: cover;
