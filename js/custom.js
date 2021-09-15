@@ -94,14 +94,7 @@ $(function(){
 
 
   // HOME BACKGROUND SLIDESHOW
-  $(function(){
-    jQuery(document).ready(function() {
-    $('#home').backstretch([
-       "images/b.png", 
-       "images/d.jpg",
-        ],  {duration: 2000, fade: 750});
-    });
-  })
+  
 
 });
 
