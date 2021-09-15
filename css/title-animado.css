@@ -1,0 +1,78 @@
+.glowing-animation {
+  -webkit-animation: glowing 17000ms infinite;
+          animation: glowing 17000ms infinite;
+}
+
+@-webkit-keyframes glowing {
+  0% {
+    box-shadow: 0 0 -2px 1 rgba(61, 72, 70, 0.4);
+  }
+  40% {
+    box-shadow: 0 0 20px 3px rgba(61, 72, 70, 0.5);
+  }
+  60% {
+    box-shadow: 0 0 30px 3px rgba(61, 72, 70, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 -10px 0 rgba(61, 72, 70, 0.2);
+  }
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 -2px 1 rgba(61, 72, 70, 0.4);
+  }
+  40% {
+    box-shadow: 0 0 20px 3px rgba(61, 72, 70, 0.5);
+  }
+  60% {
+    box-shadow: 0 0 30px 3px rgba(61, 72, 70, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 -10px 0 rgba(61, 72, 70, 0.2);
+  }
+}
+#barcodeContainer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: #070b0a;
+  padding: 0px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0px 1px rgba(61, 72, 70, 0.8);
+  cursor: crosshair;
+}
+
+#barcode {
+  position: relative;
+  color: #626B5B;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 5rem;
+  font-weight: 100;
+  white-space: no-wrap;
+}
+
+.animatedSpan {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.animatedSpan:hover {
+  color: darkturquoise;
+}
+
+.barcodeSelected {
+  color: darkturquoise;
+}
+
+.highlighted {
+  color: aliceblue;
+  border-bottom: 1px solid #00c6d7;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 35px aqua;
+}
