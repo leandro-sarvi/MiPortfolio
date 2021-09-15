@@ -24,6 +24,25 @@ html, body {
         0 0 102px #0fa,
         0 0 151px #0fa;
   }
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #00C6D7,
+        0 0 80px #00C6D7,
+        0 0 90px #00C6D7,
+        0 0 100px #00C6D7,
+        0 0 150px #00C6D7;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
+  .parpadeo{
+    animation: flicker 1.5s infinite alternate;    
+  }
 h1, h2, h3, h4 {
   font-weight: bold;
   letter-spacing: 2px;
@@ -226,7 +245,7 @@ navigation section
     margin-bottom: 0;
 }
 .custom-navbar .navbar-brand  {
-  color: #00c6d7;
+  color:white;
   font-weight: 600;
   font-size: 24px;
 }
@@ -236,6 +255,7 @@ navigation section
     font-size: 16px;
     color: #fff;
     }
+
 .custom-navbar .nav li a {
     color: #ffffff;
     font-size: 14px;
