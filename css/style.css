@@ -321,14 +321,15 @@ home section
   border-color: transparent;
 }
 #home .btn-danger {
-  background: #00c5d78e;
+  
   border-color: transparent;
-  border-radius: 10px;
+  border: 4px solid #ffffff7e;
+
 }
 #home .btn-danger:hover {
 	border: 4px solid #ffffff;
   	border-radius: 0;
-	background: transparent;
+    background: #00c5d78e;
   	color: #ffffff;
 }
 
